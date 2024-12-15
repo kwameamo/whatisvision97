@@ -47,8 +47,8 @@ main {
 
 .download-button {
     display: inline-block;
-    background-color: #5d93d8;
-    color: #6c6d74;
+    background-color: #dd4545;
+    color: #161616;
     padding: 10px 20px;
     font-size: 1rem;
     font-weight: 500;
@@ -59,13 +59,30 @@ main {
 }
 
 .download-button:hover {
-    background-color: #73a5e5;
+    background-color: #db6161;
 }
 
 .download-count {
     margin-top: 15px;
     font-size: 1rem;
     color: #6c6d74;
+}
+
+.flashing-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    animation: flash 1s infinite;
+}
+
+@keyframes flash {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
 }
 
 /* Footer Styling */
