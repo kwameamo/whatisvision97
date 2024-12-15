@@ -23,7 +23,6 @@
         <div class="pdf-container">
             <img class="pdf-image" src="pdf-thumb.svg" alt="PDF Preview">
             <a class="download-button" href="what-is-vision97?.pdf" download>Download PDF</a>
-            <div class="download-count" id="downloadCount">Downloads: 0</div>
         </div>
     </main>
 
@@ -32,20 +31,5 @@
         <p>2024 Vision'97&reg;. All rights reserved.</p>
     </footer>
 
-    <!-- JavaScript for Live Download Count -->
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const downloadButton = document.querySelector('.download-button');
-            const downloadCountDisplay = document.getElementById('downloadCount');
-
-            // Simulated download count (replace with backend logic in production)
-            let downloadCount = 0;
-
-            downloadButton.addEventListener('click', () => {
-                downloadCount++;
-                downloadCountDisplay.textContent = `Downloads: ${downloadCount}`;
-            });
-        });
-    </script>
 </body>
 </html>
