@@ -3,7 +3,7 @@ body {
     font-family: 'Space Mono', monospace;
     margin: 0;
     padding: 0;
-    background-color: #0a0a23;
+    background-color: #222329;
     color: #333;
     display: flex;
     flex-direction: column;
@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #0a0a23;
+    background-color: #222329;
     padding: 10px 20px;
     text-align: center;
     padding-top: 60px;
@@ -47,8 +47,8 @@ main {
 
 .download-button {
     display: inline-block;
-    background-color: #dd4545;
-    color: #ffffff;
+    background-color: #5d93d8;
+    color: #6c6d74;
     padding: 10px 20px;
     font-size: 1rem;
     font-weight: 500;
@@ -59,19 +59,19 @@ main {
 }
 
 .download-button:hover {
-    background-color: #ea6868;
+    background-color: #73a5e5;
 }
 
 .download-count {
     margin-top: 15px;
     font-size: 1rem;
-    color: #ffffff;
+    color: #6c6d74;
 }
 
 /* Footer Styling */
 footer {
-    background-color: #0a0a23;
-    color: #ffffff;
+    background-color: #222329;
+    color: #6c6d74;
     text-align: center;
     padding: 10px 20px;
 }
