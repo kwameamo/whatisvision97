@@ -48,7 +48,7 @@ main {
 .download-button {
     display: inline-block;
     background-color: #dd4545;
-    color: #161616;
+    color: #ffffff;
     padding: 10px 20px;
     font-size: 1rem;
     font-weight: 500;
@@ -62,16 +62,10 @@ main {
     background-color: #db6161;
 }
 
-.download-count {
-    margin-top: 15px;
-    font-size: 1rem;
-    color: #6c6d74;
-}
-
 .flashing-text {
-    font-size: 24px;
+    font-size: 16px;
     font-weight: bold;
-    color: #ffffff;
+    color: #dd4545;
     padding: 10px;
     display: inline-block;
     text-align: center;
