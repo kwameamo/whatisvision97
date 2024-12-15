@@ -72,11 +72,19 @@ main {
     font-size: 24px;
     font-weight: bold;
     color: #ffffff;
-    background-color: #000000;
     padding: 10px;
     display: inline-block;
     text-align: center;
     animation: flash 1s infinite;
+}
+
+.flashing-text a {
+    color: #ffffff;  /* White text for the link */
+    text-decoration: none;  /* Removes underline */
+}
+
+.flashing-text a:hover {
+    color: #25d366;  /* Green color when the link is hovered (WhatsApp green) */
 }
 
 @keyframes flash {
@@ -84,6 +92,7 @@ main {
     50% { opacity: 0; }
     100% { opacity: 1; }
 }
+
 
 /* Footer Styling */
 footer {
